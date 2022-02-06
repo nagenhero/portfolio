@@ -1,0 +1,72 @@
+.top-nave
+{
+    background: linear-gradient(180deg, rgb(46, 56, 53) 0%, rgba(53, 60, 61, 0.329) 100%);
+    min-height: 80vh;
+     /* background: url(./assets/bg3.jpg) no-repeat center; */ */
+    background-size: cover;
+
+}
+a{
+    text-decoration: none;;
+}
+a.nav-link{
+    font-weight: bold;
+    color:white !important;
+    letter-spacing:0.1em ;
+
+}
+a.nav-link:hover {
+    color:blueviolet !important;
+}
+
+
+.sec-title
+{
+    border-bottom: chartreuse solid 5px;
+    /* background: RED; */
+    width:190px;
+}
+.sec-content i{
+    font-size: 3rem;
+}
+.project
+{
+    background: linear-gradient(180deg, rgb(46, 56, 53) 0%, rgba(53, 60, 61, 0.329) 100%);
+
+}
+.contact-icons
+{
+    background: rgba(105, 221, 215, 0.609);
+    min-height: 30vh;
+    border-radius: 50px;
+      background: url(./assets/bg2.jpg) no-repeat center; 
+     background-size: cover;
+
+}
+.icons
+{
+    display: flex;
+    justify-content: space-around;
+}
+footer
+{
+    position: relative;
+}
+.up
+{
+    font-size:3rem;
+     position: absolute;
+    right:10px;
+    top:-20px;
+    width:50px;
+    height:50px;
+    background:red;
+    color:white;
+    /* font-style: 2rem; */
+    border: black solid 2px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
